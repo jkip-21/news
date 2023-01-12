@@ -93,7 +93,8 @@
 .five{
      grid-area: five;
      display: flex;
-     gap: 10px
+     gap: 30px;
+     flex-wrap: nowrap;
 }
 .five h1{
     color: lightgray;
@@ -102,7 +103,7 @@
 .six{
     grid-area: six;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 .six h1{
     color: lightgray;
@@ -111,7 +112,7 @@
     grid-area: seven;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
 }
 .seven h1{
     color: lightgray;
