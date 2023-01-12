@@ -1,0 +1,142 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 98vw;
+    height: 148vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.content{
+    width: 90%;
+    height: 98%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    grid-template-areas:
+     "one one two"
+    "three four two"
+    "five six seven"
+    ;
+}
+
+.profile img{
+    border-radius:50%;
+}
+
+.one{
+      color: white;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: one;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+    .profile{
+        display: flex;
+        gap: 10px;
+    }
+
+.one{
+    background: url(/assets/images/image-web-3-desktop.jpg);
+}
+.two{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.three{
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: three;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-size: 30px;
+    }
+.three p{
+    color: hsl(0, 0%, 81%);
+     font-size: 22px;
+}
+
+.four{
+    background-color:hsl(0, 0%, 100%);
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    grid-area: four;
+     display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    font-size: 28px;
+    }
+
+
+.five{
+     grid-area: five;
+     display: flex;
+     gap: 10px
+}
+.five h1{
+    color: lightgray;
+}
+
+.six{
+    grid-area: six;
+    display: flex;
+    gap: 10px;
+}
+.six h1{
+    color: lightgray;
+}
+.seven{
+    grid-area: seven;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.seven h1{
+    color: lightgray;
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    margin-left: 20px;
+    float:right ;
+    justify-content: space-evenly;
+}
+.navbar{
+    gap: 10px;
+
+}
+.btn{
+    background-color: rgb(238, 79, 79);
+    height: 40px;
+    width: 160px;
+    border: none;
+    color: white;
+    margin-top: 50px;
+}
+.logo-header{
+    margin: 20px;
+}
